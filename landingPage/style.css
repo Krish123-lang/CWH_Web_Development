@@ -69,7 +69,8 @@ nav {
 }
 
 .shapeBorder {
-    background: pink;
+    /* background: pink; */
+    background-image: linear-gradient(to right, rgb(255, 0, 149), rgb(132, 0, 255));
     border-radius: 20px 0 20px 20px;
     color: black;
 }
