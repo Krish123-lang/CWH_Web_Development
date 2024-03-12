@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Box Model</title>
+
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            h1 {
+                padding: 20px;
+                border: 3px solid red;
+                margin: 20px;
+                width: 200px;
+                text-align: center;
+                border-radius: 10px;
+            }
+
+            div.height {
+                height: 100px;
+                background-color: red;
+                margin: 5px;
+            }
+
+            div.width {
+                width: 50px;
+                background-color: red;
+                margin: 5px;
+                /*border-radius: 50%;*/
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>Heading</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, rem!</p>
+        <button>Click Me</button>
+
+        <div class="height">This is height div</div>
+        <div class="width">This is width div</div>
+    </body>
+
+</html>
